@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1 id="title">The Survey Form</h1>
+<p id="description">Thank you for visiting The Survey Form!</p>
+</header>
+    </main>
+  </body>
+  <div class="container">
+    <form action="#" id="survey-form">
+      <div class="formsec">
+      <label for="name" id="name-label">Name</label><br>
+      <input type="text" id="name" placeholder="Enter your name" required>
+        </div>
+        <div class="formsec">
+        <label for="email" id="email-label">E-mail</label><br>
+        <input type="email" id="email"  placeholder="Enter your Email" required>
+        </div>
+        <div class="formsec">
+        <label for="age" id="number-label">Age <span>(optional)</span></label>
+        <input type="number" id="number" min="10" max=99 placeholder="Age">
+</div>
+<div class="formsec">
+<label for="dropdown" id="dropdown-label">Which option best describes your current role?
+</label>
+<select id="dropdown" name="dropdown">
+    <option selected disabled select value>Select current role</option>
+    <option value="student">Student</option>
+    <option value="ft job">Full Time Job</option>
+    <option value="ft learner">Full Time Learner</option>
+    <option value="notsay">Prefer not to say</option>
+    <option value="other">Other</option>
+  </select>
+  </div>
+  <div class="formsec">
+  <label for="radio" id="radiom">Would you recommend this website-name to a friend?</label>
+   <div class="yuvarlak">
+    <input type="radio" id="yes" name="radiom" value="yes" checked />
+    <label for="yes">Definitely</label>
+  </div>
+ <div class="yuvarlak">
+    <input type="radio" id="maybe" name="radiom" value="maybe" />
+    <label for="maybe">Maybe</label>
+  </div>
+
+  <div class="yuvarlak">
+    <input type="radio" id="no" name="radiom" value="no"/>
+    <label for="no">Not sure</label>
+  </div>
+</div>
+
+<div class="formsec">
+<label for="fav" id="fav-label">What is your favorite feature of the website-name?
+</label>
+<select id="fav" name="fav">
+    <option selected disabled select value>Select an option</option>
+    <option value="challange">Challanges</option>
+    <option value="projects">Projects</option>
+    <option value="community">Community</option>
+    <option value="opensource">Open Source</option>
+  </select>
+  <div class="formsec">
+   
+  <p>What would you like to see improved? <span>(Check all that apply)</span></p>
+   <div class="lala">
+  <label> <input type="checkbox" value="fe" class="input-checkbox" name="prefer">Front-end Projects</label><br>
+  <label> <input type="checkbox" value="be" class="input-checkbox" name="prefer">Back-end Projects</label><br>
+  <label> <input type="checkbox" value="videos" class="input-checkbox" name="prefer">Videos</label>
+  <div class="formsec">
+    </div>
+    </div>
+
+
+<div class="formsec">
+<p>Any comments or suggestions?</p>
+<textarea placeholder="Type something" id="comments" name="comments">
+  </textarea>
+  </div>
+  <div class="formsec">
+
+  <button type="submit" id="submit"> Submit </button>
+  </div>
+      </form>
+    </div>
+</html>

@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1,4;
+    color: white;
+    background-image: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+}
+header{
+ margin:50px; 
+ font-family:tahoma;
+ text-shadow: 5px 4px 5px black;
+}
+#description{
+  font-style:italic;
+  font-weight:500;
+}
+.container{
+  border:2px solid black;
+  padding:30px;
+  width:80%;
+  margin:auto;
+  background-color:rgba(11, 6, 88, 0.63);
+}
+#title {
+  text-align:center;
+}
+#description {
+  text-align:center;
+}
+#name, #email, #number, #dropdown, #radio, #fav{
+  margin:8px 0px;
+  width: 100%;
+  background-color:white;
+  border: 1px solid gray;
+  border-radius:4px;
+  height:2.1rem;
+  padding:5px;
+}
+span{
+  font-size: 0.8rem;
+}
+
+textarea{
+  width: 100%;
+  height: 150px;
+  padding: 8px 12px;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  background-color:white;
+  resize:none;
+}
+
+
+#submit {
+  width: 100%;
+  background-color: green;
+  color:white;
+  margin: 20px 0;
+  font-size:1.1rem;
+  height: 40px;
+  border:1px solid black;
+  border-radius:4px;
+  cursor:pointer;
+
+}
+.formsec{
+  width:100%;
+  /* border:2px solid green; */
+  text-align:left;
+  padding:4px;
+  margin:5px 0;  }
+
+.yuvarlak{
+  margin:3px 0;
+}
+p{
+  margin:10px 0;
+}
+.lala{
+  margin:-5px 0;
+}
